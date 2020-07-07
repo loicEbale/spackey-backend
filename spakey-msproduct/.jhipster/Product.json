@@ -1,0 +1,34 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "spakeymsproduct",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "product_id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "product_name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "product_ref",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "product_version",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20200703104542",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "product",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no",
+  "microserviceName": "spakeymsproduct"
+}

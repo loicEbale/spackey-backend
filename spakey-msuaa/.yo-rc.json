@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.spakey.uaa",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "uaa",
+    "baseName": "spakeymsuaa",
+    "packageName": "org.spakey.uaa",
+    "packageFolder": "org/spakey/uaa",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDUwZDEwOWUxZjVmZTdlZDJmOWQ4OTM3NDk5MmMwYmMzMjg4NWFlMWI4ODJiZmE2YzUzYzY2MDQyNDk4Y2IzODliNWE1ODhkNGExNzM1NTk2ZGI0NWY4YTc2NGRmZTNlM2QwZjVhNzBmNjAxNGFhMWQ4OGM4NTYyOWYxMWViNzk=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1593713779696,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "fr"],
+    "blueprints": [],
+    "skipClient": true
+  }
+}

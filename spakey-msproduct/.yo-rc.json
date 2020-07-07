@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.spakey.product"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "microservice",
+    "baseName": "spakeymsproduct",
+    "packageName": "org.spakey.product",
+    "packageFolder": "org/spakey/product",
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "spakeymsuaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWRmMzU3MTY4MzUzNTRkOGE0YzJkOWU4OTA1MTU1M2JlNjBiY2E5ODk0ZmI2Y2NhMjkwMjM3YjlmNDg3YjMwZWVlN2MwZjRjODk4NmQ1MTY4OTk0NjUxNDliNjQ2MTZlZmZmNmM5N2QwZTMzYzgwNGQ5NDFhNmY5ZjRlMWZjZDQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1593717466077,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1593773142000
+  }
+}

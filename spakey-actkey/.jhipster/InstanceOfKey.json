@@ -1,0 +1,46 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "spakeymsactkey",
+  "relationships": [
+    {
+      "relationshipName": "key",
+      "otherEntityName": "key",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "activationKey",
+      "otherEntityRelationshipName": "instanceOfKey"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "keyInstanceId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "activationKey",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "licenseId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "activationDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "changelogDate": "20200703135645",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "instance_of_key",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no",
+  "microserviceName": "spakeymsactkey"
+}

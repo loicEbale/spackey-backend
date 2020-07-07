@@ -1,0 +1,41 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "spakeymsactkey",
+  "relationships": [
+    {
+      "relationshipName": "instanceOfKey",
+      "otherEntityName": "instanceOfKey",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "key"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "activationKey",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "activationNumber",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20200703135053",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "jhi_key",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no",
+  "microserviceName": "spakeymsactkey"
+}
